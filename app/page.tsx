@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react";
+import { FaqChatbot } from "./components/FaqChatbot";
 import { Header } from "./components/Header";
 
 const chartBars = [
@@ -224,6 +225,8 @@ export default function Home() {
         <p>Trading Kannada</p>
         <p>Educational content only. Trading involves market risk; learners should make independent decisions.</p>
       </footer>
+
+      <FaqChatbot />
     </>
   );
 }
